@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.background{
+  background-image: url("background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.layover{
+  width: 900px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.50);
+  border-radius: 2.5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container{
+  width: 720px;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Logo{
+  height: 80px;
+  width: 170px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+h2{
+  color: #00d221;
+  text-align: center;
+  position: absolute;
+  top: 105px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+nav>div{
+  background-color: #00d221;
+  position: absolute;
+  top: 140px;
+  padding: 8px;
+  width: 100%;
+}
+
+div>button{
+float: none;
+position: relative;
+left: 30%;
+}
+
+main{
+  color: white;
+  position: absolute;
+  top: 200px;
+}
+
+h4{
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+span{
+  font-size: 13px;
+}
+
+.power{
+  height: 20px;
+  border-radius: 4px;
+  margin-top: 2px;
+}
+
+.power.medium{
+  width: 120%;
+  background-color: orange;
+}
+
+.power.full{
+  width: 200%;
+  background-color: green;
+}
+
+.power.low{
+  width: 50%;
+  background-color: red;
+}
+
+.mike>h4{
+  margin-top: 20px;
+}
+
+.fede>h4{
+  margin-top: 20px;
+}
